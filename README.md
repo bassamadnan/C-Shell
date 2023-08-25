@@ -1,7 +1,7 @@
 # Description
 All relevant source codes are in src directory, with the relevant include libraries in the include directory, everything else is for test purposes.
 
-To run first open the directory of MakeFile 
+To run first open the directory of MakeFile inside MP1
 ```
 make build
 ```
