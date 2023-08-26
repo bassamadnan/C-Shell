@@ -91,7 +91,10 @@ void process(str cmd){
             int status = 0;
             pid_t pid = fork();
             // for(int i=0; i<argc; i++) printf("%s " , argv[i]);
-            if(pid == 0){
+            if(pid < 0){
+                perror("Unable to fork");
+            }
+            else if(pid == 0){
                     if(execvp(*argv, argv) < 0){
                     printf("%s: command not found\n", *argv);
                    

@@ -56,8 +56,10 @@ void go_bg(str cmd){
             exit(EXIT_FAILURE);
     }
     pid_t pid = fork();
-
-    if(pid == 0){
+    if(pid < 0){
+        perror("Unable to fork");
+    }
+    else if(pid == 0){
 
         pid_t childpid = getpid();
         printf("\n[1] \t\t %d \n", childpid);
