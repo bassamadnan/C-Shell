@@ -1,0 +1,15 @@
+seek -e -f src ./src
+seek -e -f src ./src/src
+seek -e -f src ./ttdir
+seek -e -f src ./src/src/src
+quit
+seek -d -e src ./src
+seek -e -f src ./src
+seek -e -f src
+quit
+seek src
+quit
+echo hi
+seek src
+pasatevents execute 1echo hi
+quit
