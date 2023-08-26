@@ -19,4 +19,5 @@ to run the shell
     ```pastevents purge;``` (No spaces with a mandatory ';')
     ```pastevents execute 2;``` no spaces after ';' 
     ```echo hi;pastevents execute 1;echo test2``` (No spaces in pastevents execute 1)
+    ```pastevents execute 2;``` (no spaces, with a semicolon in the end)
    
