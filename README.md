@@ -21,4 +21,3 @@ to run the shell
     ```echo hi;pastevents execute 1;echo test2``` (No spaces in pastevents execute 1)
     ```pastevents execute 2;``` (no spaces, with a semicolon in the end)
    
-[Link to Brilliant Article| Kaprekars consant](https://brilliant.org/wiki/kaprekars-constant/#:~:text=Kaprekar%20constant,%20or%206174,%20is,arrive%20at%20the%20number%206174.)
